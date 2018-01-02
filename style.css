@@ -43,7 +43,7 @@ ul, ol {
 
 a {
 	text-decoration: none;
-	color: #D613A0;
+	color: #39FF14;
 }
 
 a:hover {
@@ -83,11 +83,14 @@ img.aligncenter {
 /* Logo */
 
 #logo {
-	height: 100px;
-	margin: 0;
-	padding: 40px 0px 0px 0px;
-	color: #D613A0;
+    height: 100px;
+    margin: 0;
+    margin-top: 25px;
+    padding: 15px 0px 0px 0px;
+    color: #39FF14;
+    background: rgba(0,0,0,.75);
 }
+
 
 #logo h1, #logo p {
 	margin: 0;
@@ -107,10 +110,10 @@ img.aligncenter {
 }
 
 #logo a {
-	border: none;
-	background: none;
-	text-decoration: none;
-	color: #D613A0;
+    border: none;
+    background: none;
+    text-decoration: none;
+    color: #39FF14#39FF14;
 }
 
 /* Search */
@@ -154,8 +157,8 @@ img.aligncenter {
 /* Menu */
 
 #menu-wrapper {
-	height: 60px;
-	background: url(images/main-wrapper.jpg) repeat-x left top;
+    height: 60px;
+    background: black;
 }
 
 #menu {
@@ -193,11 +196,11 @@ img.aligncenter {
 }
 
 #menu .current_page_item a {
-	background: #C50D7C;
+    background: #39FF14;
 }
 
 #menu a:hover {
-	background: #C50D7C;
+    background: #39FF14;
 }
 
 #splash {
@@ -232,12 +235,12 @@ img.aligncenter {
 .post .title {
 	padding-bottom: 20px;
 	letter-spacing: -1px;
-	color: #D613A0;
+	color: #39FF14;
 }
 
 .post .title a {
 	border: none;
-	color: #D613A0;
+	color: #39FF14;
 }
 
 .post .meta {
@@ -309,7 +312,7 @@ img.aligncenter {
 	height: 38px;
 	padding: 12px 0 20px 15px;
 	letter-spacing: -1px;
-	color: #D613A0;
+	color: #39FF14;
 }
 
 #sidebar p {
@@ -380,7 +383,7 @@ img.aligncenter {
 #about .title {
 	padding-bottom: 10px;
 	letter-spacing: -1px;
-	color: #D613A0;
+	color: #39FF14;
 }
 
 #two-column {
@@ -434,7 +437,7 @@ img.aligncenter {
 
 .featured-post .title {
 	padding-bottom: 20px;
-	color: #D613A0;
+	color: #39FF14;
 }
 
 .featured-post a {
