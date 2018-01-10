@@ -11,26 +11,27 @@ body {
 	background: url(bg23.png) no-repeat center fixed;
 	-webkit-transform: translate3d(0,0,0);
 	font-family: 'Arvo', serif;
-	font-size: 14px;
+	font-size: 16px;
 	color: #FFFFFF;
 }
 
 h1, h2, h3 {
 	margin: 0px;
 	padding: 0px;
-	font-weight: 400;
 }
 
 h1 {
-	font-size: 2em;
+    font-weight: 400;
 }
 
 h2 {
-	font-size: 2.4em;
+    font-size: 2.4em;
+    font-weight: 100;
 }
 
 h3 {
-	font-size: 1.6em;
+    font-size: 1.6em;
+    font-weight: 100;
 }
 
 p, ul, ol {
@@ -99,14 +100,9 @@ img.aligncenter {
 
 #logo h1 {
 	display: block;
-	letter-spacing: -3px;
+	letter-spacing: -1px;
 	text-align: center;
 	font-size: 64px;
-}
-
-#logo span {
-	letter-spacing: normal;
-	font-size: 22px;
 }
 
 #logo a {
@@ -178,7 +174,10 @@ img.aligncenter {
 
 #menu li {
 	display: inline-block;
-	border-radius: 10px;
+}
+
+.linkdec {
+    color: #39FF14 !important;
 }
 
 #menu a {
@@ -195,12 +194,22 @@ img.aligncenter {
 	border: none;
 }
 
-#menu .current_page_item a {
+#menu a:hover {
     background: #39FF14;
 }
 
-#menu a:hover {
-    background: #39FF14;
+.green {
+    font: bold;
+    color: #39FF14;
+}
+
+.active {
+    background-color: #39FF14;
+}
+
+.bu {
+
+    text-decoration:underline;
 }
 
 #splash {
@@ -304,7 +313,7 @@ img.aligncenter {
 	display: block;
 	margin-top: -20px;
 	padding: 0;
-	font-size: 11px;
+	font-size: 1qpx;
 	font-style: italic;
 }
 
@@ -365,7 +374,7 @@ img.aligncenter {
 	padding-top: 30px;
 	line-height: normal;
 	text-align: center;
-	font-size: 12px;
+	color:black;
 }
 
 #footer a {
@@ -442,4 +451,8 @@ img.aligncenter {
 
 .featured-post a {
 	color: #901609;
+}
+
+#copy{
+    color:black;
 }
